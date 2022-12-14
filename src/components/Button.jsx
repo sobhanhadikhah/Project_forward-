@@ -7,10 +7,10 @@ function Button({ text, animition, newstyle }) {
        hover:bg-transparent
         hover:text-indigo-600
          border border-indigo-600
-          text-white font-mono
+          text-white 
            leading-[28px]
             font-semibold
-             py-1 px-5 m-5  ${animition} ${newstyle} `} > {text} </button>
+             py-1 px-5   ${animition} ${newstyle} `} > {text} </button>
     </>
   )
 }

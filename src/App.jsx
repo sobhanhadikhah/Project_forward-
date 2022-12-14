@@ -1,13 +1,14 @@
 import { useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
-import { Card, Button, Navbar } from "./components"
+import { Navbar, Hero, About } from "./components"
 function App() {
 
   return (
-    <>
+    < >
 
       <Navbar />
-
+      <Hero />
+      <About />
     </>
   )
 }
