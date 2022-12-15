@@ -26,7 +26,8 @@ function Navbar() {
         </div>
         <div className='md:hidden  ' >
 
-          {Toggleh === false ? <MenuIcon className={`w-[28px] ${Toggleh === true ? " " : `animate__animated animate__rotateIn`} `} onClick={handleToggleclick} /> : <XIcon className={`w-5 ${Toggleh === true ? "animate__animated animate__rotateIn " : ``}`} onClick={handleToggleclick} />}
+          {Toggleh === false ? <MenuIcon className={`w-[28px] mr-4 ${Toggleh === true ? " " : `animate__animated animate__rotateIn`} `}
+            onClick={handleToggleclick} /> : <XIcon className={`w-5 mr-4 ${Toggleh === true ? "animate__animated animate__rotateIn " : ``}`} onClick={handleToggleclick} />}
         </div>
       </div>
       <div className={`${Toggleh === false ? "hidden " : `animate__animated  animate__fadeInDown  `}  bg-zinc-200 transition duration-300 ease-out   `} >
