@@ -4,7 +4,9 @@ import Navbar from "./Navbar"
 import Hero from "./Hero";
 import About from "./About";
 import Support from "./Support";
+import Pricing from "./Pricing";
 import Allinone from "./Allinone";
+import Fotter from "./Fotter";
 export {
     Card,
     Button,
@@ -12,5 +14,7 @@ export {
     Hero,
     About,
     Support,
-    Allinone
+    Allinone,
+    Pricing,
+    Fotter
 }

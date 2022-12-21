@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
-import { Allinone, Navbar, Hero, About, Support } from "./components"
+import { Allinone, Navbar, Hero, About, Support, Pricing, Fotter } from "./components"
 
 function App() {
   useEffect(() => {
@@ -14,8 +14,10 @@ function App() {
       <About />
       <Support />
       <Allinone />
+      <Pricing />
+      <Fotter />
     </>
   )
 }
 
-export default App
+export default App;
